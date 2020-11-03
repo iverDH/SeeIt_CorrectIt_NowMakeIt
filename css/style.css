@@ -1,0 +1,143 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction:column;
+	display: inline;
+	background-color: #DFDCE5FF;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	background-color: #DFDCE5FF;
+	font-family: 'Verdana', 'sans-serif';
+}
+
+/*================================Meny============================================*/
+
+.menu {
+	position: fixed;
+	top: 0;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	background-color: #97B3D0FF;
+	width: 100%;
+	padding-left: 50px;
+}
+
+.title a{
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Geneva', Verdana, sans-serif;
+	margin:0;
+}
+
+span{
+	color: #DBB04AFF;
+	background-color: rgb(34, 98, 167);
+	padding: 3px;
+	padding-top: 1px;
+	margin: 3px;
+	border-radius: 3px;
+}
+
+nav{
+	display: flex;
+	margin-left: auto;
+}
+
+nav a{
+	font-family: 'Geneva', Verdana, sans-serif;
+	text-align: center;
+	text-decoration: none;
+	padding: 4px;
+	margin-right: 100px;
+}
+nav a:hover{
+	text-decoration: underline;
+}
+a:visited{
+	color: black;
+}
+/*================================Forside============================================*/
+.content, .content2, .content3 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.pil{
+	background-color: #97B3D0FF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+	height: 10vh;
+}
+.content{
+	background-color: #97B3D0FF;
+	height: 90vh;
+}
+.content2{
+	background-color: #DFDCE5FF;
+	height: 70vh;
+}
+.content3{
+	background-color: #DFDCE5FF;
+	height: 50vh;
+}
+.forside-ide{
+	background-color: #DBB04AFF;
+	text-align: left;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	font-size: 30px;
+	border-radius: 3px;
+}
+p{
+	font-size: 20px;
+}
+h3{
+	margin: 3px;
+}
+.moon{
+	width: 30%;
+	height: auto;
+	margin-left: 20vh;
+}
+.solcelle{
+	margin-right: 20vh;
+	margin-top: 7vh;
+	height: auto;
+	width: 30%;
+}
+/*================================Footer============================================*/
+
+footer{
+	background-color: #DBB04AFF;
+	height: 12vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+table{
+	border-collapse: collapse;
+}
+th{
+	padding-left: 50px;
+}
+table a{
+	font-family: 'Geneva', Verdana, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	text-decoration: none;
+}
+table a:hover{
+    text-decoration: underline;
+}
