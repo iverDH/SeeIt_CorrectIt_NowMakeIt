@@ -63,10 +63,29 @@ a:visited{
 	color: black;
 }
 /*================================Forside============================================*/
+.tittel {
+	align-text: center;
+	font: "Helvetica", "sans-serif";
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	margin-top: 5px;
+}
+
+.tittel-tekst {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 10px;
+}
+
+.tittel-tekst h1 {
+	font-size: 2.4em;
+}
+
 .content, .content2, .content3 {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
 	justify-content: center;
 }
 .pil{
@@ -106,17 +125,12 @@ p{
 h3{
 	margin: 3px;
 }
-.moon{
-	width: 30%;
+.forside-bilde{
 	height: auto;
 	margin-left: 20vh;
 }
-.solcelle{
-	margin-right: 20vh;
-	margin-top: 7vh;
-	height: auto;
-	width: 30%;
-}
+
+
 /*================================Footer============================================*/
 
 footer{
