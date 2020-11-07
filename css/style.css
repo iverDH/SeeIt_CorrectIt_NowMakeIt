@@ -33,10 +33,10 @@ body {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	background-color: green;
-	width: 10%;
+	background-color: white;
+	width: auto;
 	min-width: 100px;
-	height: 99.9vh;
+	height: 100vh;
 }
 
 nav{
@@ -49,17 +49,20 @@ nav a{
 	font-family: 'Geneva', Verdana, sans-serif;
 	text-align: center;
 	text-decoration: none;
-
+	padding: 15px;
 }
 nav a:hover{
 	text-decoration: underline;
+	cursor: pointer;
 }
 nav a:visited{
 	color: black;
 }
+.active{
+	background-color: rgb(223, 223, 223);
+}
 /*================================Forside============================================*/
 .tittel {
-	align-text: center;
 	font: "Helvetica", "sans-serif";
 	display: flex;
 	flex-direction: row;
@@ -129,11 +132,11 @@ h3{
 /*================================Footer============================================*/
 
 footer{
-	background-color: blue;
-	height: 12vh;
+	background-color:white;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	height: 75px;
 }
 table{
 	border-collapse: collapse;
