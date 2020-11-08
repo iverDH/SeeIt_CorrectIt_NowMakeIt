@@ -135,14 +135,15 @@ footer{
 	background-color:white;
 	display: flex;
 	align-items: center;
+	flex-direction: column;
 	justify-content: center;
-	height: 75px;
+	height: auto;
 }
 table{
 	border-collapse: collapse;
 }
 th{
-	padding-left: 50px;
+	padding: 20px;
 }
 table a{
 	font-family: 'Geneva', Verdana, sans-serif;
@@ -152,4 +153,7 @@ table a{
 }
 table a:hover{
     text-decoration: underline;
+}
+tr{
+	padding-top: 100px;
 }
