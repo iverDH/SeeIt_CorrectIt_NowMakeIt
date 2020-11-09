@@ -86,18 +86,41 @@ nav a:visited{
 	flex-direction: row;
 }
 
+.degrees-section {
+	text-align: center;
+	margin-top: 3vh;
+}
+
 .degrees-flex {
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 }
 
 .degree-box {
 	display: flex;
-	width: 20vh;
+	flex-direction: column;
+	width: 25vh;
 	height: 20vh;
 	margin: 5px;
 	background-color: #DFDCE5FF;
-	border-radius: 5px
+	border-radius: 5px;
+	justify-content: center;
+	padding-bottom: auto;
+	padding-top: 1vh;
+	color: #333;
+}
+
+.degree-box h3 {
+	text-align: center;
+}
+
+.degree-box ul {
+	text-align: left;
+}
+
+.degree-box li {
+	margin: 8px 0 8px 0;
 }
 
 .pil{
