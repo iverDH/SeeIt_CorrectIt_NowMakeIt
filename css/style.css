@@ -67,6 +67,7 @@ nav a:visited{
 	flex-direction: row;
 	margin: auto;
 	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .tittel-tekst {
@@ -83,8 +84,22 @@ nav a:visited{
 .content, .content2, .content3 {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
 }
+
+.degrees-flex {
+	display: flex;
+	flex-direction: row;
+}
+
+.degree-box {
+	display: flex;
+	width: 20vh;
+	height: 20vh;
+	margin: 5px;
+	background-color: #DFDCE5FF;
+	border-radius: 5px
+}
+
 .pil{
 	background-color: #97B3D0FF;
 	display: flex;
@@ -96,6 +111,8 @@ nav a:visited{
 	height: 10vh;
 }
 .content{
+	display: flex;
+	flex-direction: column;
 	background-color: #97B3D0FF;
 	height: 100vh;
 }
