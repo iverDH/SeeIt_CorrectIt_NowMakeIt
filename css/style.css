@@ -4,7 +4,6 @@ body {
 	display: flex;
 	flex-direction:column;
 	display: inline;
-	background-color: #DFDCE5FF;
 }
 .main-package{
 	display: flex;
@@ -12,7 +11,7 @@ body {
 	height: 100%;
 	width: 100%;
 	min-width: 850px;
-	background-color: #DFDCE5FF;
+	background-color: white;
 	font-family: 'Verdana', 'sans-serif';
 }
 .main-content {
@@ -35,7 +34,7 @@ body {
 	background-color: white;
 	width: 10%;
 	min-width: 200px;
-	height: 100vh;
+	height: 100%;
 }
 
 nav{
@@ -111,9 +110,6 @@ nav a:visited{
 	padding: 2px;
 }
 
-.content2 {
-}
-
 .degrees-section {
 	text-align: center;
 	margin-top: 3vh;
@@ -171,6 +167,7 @@ nav a:visited{
 	align-items: center;
 	justify-content: center;
 	padding: 0;
+	padding-bottom: 10px;
 	margin: 0;
 	height: 10vh;
 }
@@ -178,7 +175,7 @@ nav a:visited{
 	display: flex;
 	flex-direction: column;
 	background-color: #97B3D0FF;
-	height: 100vh;
+	height: 90vh;
 }
 
 .content2 {
