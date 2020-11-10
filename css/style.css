@@ -61,6 +61,13 @@ nav a:visited{
 	background-color: rgb(223, 223, 223);
 }
 /*================================Forside============================================*/
+.content {
+	display: flex;
+	flex-direction: column;
+	background-color: #97B3D0FF;
+	height: 90vh;
+}
+
 .title {
 	font: "Helvetica", "sans-serif";
 	display: flex;
@@ -108,6 +115,14 @@ nav a:visited{
 	background-color: orange;
 	border-radius: 4px;
 	padding: 2px;
+}
+
+.content2 {
+	display: flex;
+	flex-direction: row;
+	background-color: #DFDCE5FF;
+	justify-content: center;
+	height: 90vh;
 }
 
 .degrees-section {
@@ -170,20 +185,6 @@ nav a:visited{
 	padding-bottom: 10px;
 	margin: 0;
 	height: 10vh;
-}
-.content {
-	display: flex;
-	flex-direction: column;
-	background-color: #97B3D0FF;
-	height: 90vh;
-}
-
-.content2 {
-	display: flex;
-	flex-direction: row;
-	background-color: #DFDCE5FF;
-	height: 60vh;
-	justify-content: center;
 }
 
 /*================================Footer============================================*/
