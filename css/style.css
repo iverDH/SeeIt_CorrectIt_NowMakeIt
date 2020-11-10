@@ -11,6 +11,7 @@ body {
 	flex-direction: row;
 	height: 100%;
 	width: 100%;
+	min-width: 850px;
 	background-color: #DFDCE5FF;
 	font-family: 'Verdana', 'sans-serif';
 }
@@ -61,7 +62,7 @@ nav a:visited{
 	background-color: rgb(223, 223, 223);
 }
 /*================================Forside============================================*/
-.tittel {
+.title {
 	font: "Helvetica", "sans-serif";
 	display: flex;
 	flex-direction: row;
@@ -70,20 +71,47 @@ nav a:visited{
 	margin-bottom: 5px;
 }
 
-.tittel-tekst {
+.title-text {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	margin-left: 10px;
 }
 
-.tittel-tekst h1 {
+.title-text h1 {
 	font-size: 2.4em;
 }
 
-.content, .content2, .content3 {
+.frontpage-intro {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	justify-content: center;
+	margin: auto;
+	margin-top: 27vh;
+	margin-left: 10vw;
+	padding: 10px;
+	color: white;
+}
+
+.fp1 {
+	font-size: 2em;
+	font-weight: bold;
+	margin: 0;
+}
+
+.fp2 {
+	font-size: 4em;
+	font-weight: bold;
+	margin: 5px 0 5px 0;
+}
+
+.frontpage-intro span {
+	background-color: orange;
+	border-radius: 4px;
+	padding: 2px;
+}
+
+.content2 {
 }
 
 .degrees-section {
@@ -102,11 +130,11 @@ nav a:visited{
 	flex-direction: column;
 	width: 25vh;
 	height: 20vh;
+	min-width: 275px;
+	min-height: 226px;
 	margin: 5px;
 	background-color: #DFDCE5FF;
 	border-radius: 5px;
-	justify-content: center;
-	padding-bottom: auto;
 	padding-top: 1vh;
 	color: #333;
 }
@@ -117,13 +145,14 @@ nav a:visited{
 
 .degree-box ul {
 	text-align: left;
+	line-height: 2;
 }
 
 .degree-box li {
 	margin: 8px 0 8px 0;
 }
 
-.pil{
+.pil {
 	background-color: #97B3D0FF;
 	display: flex;
 	flex-direction: column;
@@ -133,40 +162,20 @@ nav a:visited{
 	margin: 0;
 	height: 10vh;
 }
-.content{
+.content {
 	display: flex;
 	flex-direction: column;
 	background-color: #97B3D0FF;
 	height: 100vh;
 }
-.content2{
-	background-color: #DFDCE5FF;
-	height: 70vh;
-}
-.content3{
-	background-color: #DFDCE5FF;
-	height: 50vh;
-}
-.forside-ide{
-	background-color: #DBB04AFF;
-	text-align: left;
-	align-items: center;
-	justify-content: center;
-	padding: 10px;
-	font-size: 30px;
-	border-radius: 3px;
-}
-p{
-	font-size: 20px;
-}
-h3{
-	margin: 3px;
-}
-.forside-bilde{
-	height: auto;
-	margin-left: 20vh;
-}
 
+.content2 {
+	display: flex;
+	flex-direction: row;
+	background-color: #DFDCE5FF;
+	height: 100vh;
+	justify-content: center;
+}
 
 /*================================Footer============================================*/
 
