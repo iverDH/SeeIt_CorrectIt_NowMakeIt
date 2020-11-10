@@ -152,6 +152,18 @@ nav a:visited{
 	margin: 8px 0 8px 0;
 }
 
+.degree-box a {
+	text-decoration: none;
+	font-weight: bold;
+	color: maroon;
+	padding: 3px;
+	border-radius: 5px;
+}
+
+.degree-box a:hover {
+	background-color: lightblue;
+}
+
 .pil {
 	background-color: #97B3D0FF;
 	display: flex;
@@ -173,7 +185,7 @@ nav a:visited{
 	display: flex;
 	flex-direction: row;
 	background-color: #DFDCE5FF;
-	height: 100vh;
+	height: 60vh;
 	justify-content: center;
 }
 
