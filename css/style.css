@@ -26,6 +26,10 @@ body {
 	overflow-y: scroll;
 }
 
+.main-content, .menu, .package, .content, .content2 {
+	min-height: 656px;
+}
+
 /*================================Meny============================================*/
 
 .menu {
@@ -117,6 +121,7 @@ nav a:visited{
 .degrees-section {
 	text-align: center;
 	margin-top: 3vh;
+	min-height: 740px;
 }
 
 .degrees-flex {
@@ -198,6 +203,7 @@ footer{
 	flex-direction: column;
 	justify-content: center;
 	height: auto;
+	margin-bottom: 0;
 }
 table{
 	border-collapse: collapse;
