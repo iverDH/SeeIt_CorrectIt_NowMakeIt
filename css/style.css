@@ -69,7 +69,7 @@ nav a:visited{
 	display: flex;
 	flex-direction: column;
 	background-color: #97B3D0FF;
-	height: 90vh;
+	height: 100vh;
 }
 
 .title {
@@ -127,11 +127,13 @@ nav a:visited{
 	background-color: #DFDCE5FF;
 	justify-content: center;
 	height: 90vh;
+	margin-bottom: 5vh;
 }
 
 .degrees-section {
 	text-align: center;
 	margin-top: 3vh;
+	margin-bottom: 10vh;
 	min-height: 740px;
 }
 
