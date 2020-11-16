@@ -216,8 +216,26 @@ footer{
 
 @media only screen and (max-width: 980px) {
 	/* endringer for mindre skjermer */
+	.main-package {
+		flex-direction: column;
+	}
+
 	.menu {
+		position: static;
+	}
+
+	.menu img {
 		display: none;
+	}
+
+	nav {
+		flex-direction: row;
+		width: 100vw;
+	}
+
+	nav a {
+		padding: 1vw;
+		font-size: 2.4vw;
 	}
 
 	.main-content {
@@ -266,4 +284,3 @@ footer{
 		font-size: 3vw;
 	}
 }
-
